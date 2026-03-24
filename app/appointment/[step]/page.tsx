@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { notFound } from 'next/navigation'
+import { notFound, useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { ChevronRight, Lightbulb, Pencil, X, Plus, Trash2, Download, RotateCcw, Save, Check, AlertCircle, GripVertical, Square } from 'lucide-react'
 import { AppLayout } from '@/components/app-layout'
@@ -26,6 +26,9 @@ export default function SlotStepPage({ params }: Props) {
   }
 
   const asGuideStep = originalStep as unknown as GuideStep
+
+  const searchParams = useSearchParams()
+  const isAdmin = searchParams.get('admin') === '1'
 
   const [isEditing,  setIsEditing]  = useState(false)
   const [showExport, setShowExport] = useState(false)
@@ -80,7 +83,7 @@ export default function SlotStepPage({ params }: Props) {
               {String(stepId).padStart(2, '0')}
             </span>
             <h1 className="text-lg font-black text-slate-800 pb-0.5">{step.title}</h1>
-            <button
+            {isAdmin && <button
               onClick={async () => {
                 if (isEditing) { await saveSlotStep(); setIsEditing(false) }
                 else { editor.reset(); setIsEditing(true) }
@@ -91,7 +94,7 @@ export default function SlotStepPage({ params }: Props) {
             >
               {isEditing ? <X size={14} /> : <Pencil size={14} />}
               {isEditing ? '退出编辑' : '编辑'}
-            </button>
+            </button>}
           </div>
           <p className="text-sm text-slate-500 leading-relaxed">{step.subtitle}</p>
 

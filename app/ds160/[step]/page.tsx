@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { notFound } from 'next/navigation'
+import { notFound, useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { ChevronRight, Lightbulb, ExternalLink, Pencil, X, Plus, Trash2, Download, RotateCcw, Save, Check, AlertCircle, GripVertical, Square } from 'lucide-react'
 import { AppLayout } from '@/components/app-layout'
@@ -27,6 +27,9 @@ export default function DS160StepPage({ params }: Props) {
   if (!originalStep || isNaN(stepId)) {
     notFound()
   }
+
+  const searchParams = useSearchParams()
+  const isAdmin = searchParams.get('admin') === '1'
 
   const [isEditing, setIsEditing] = useState(false)
   const [showExport, setShowExport] = useState(false)
@@ -73,8 +76,8 @@ export default function DS160StepPage({ params }: Props) {
             <h1 className="text-lg font-black text-slate-800 pb-0.5">
               {step.title}
             </h1>
-            {/* Edit mode toggle */}
-            <button
+            {/* Edit mode toggle — admin only */}
+            {isAdmin && <button
               onClick={async () => {
                 if (isEditing) {
                   await editor.save()
@@ -92,7 +95,7 @@ export default function DS160StepPage({ params }: Props) {
             >
               {isEditing ? <X size={14} /> : <Pencil size={14} />}
               {isEditing ? '退出编辑' : '编辑'}
-            </button>
+            </button>}
           </div>
           <p className="text-sm text-slate-500 leading-relaxed">
             {step.subtitle}
