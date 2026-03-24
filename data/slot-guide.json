@@ -1,0 +1,607 @@
+[
+  {
+    "id": 1,
+    "title": "进入 AIS 官网",
+    "subtitle": "",
+    "screenshots": [
+      "/screesnshots/slot/step-01.png"
+    ],
+    "boxes": [
+      {
+        "x": 5.2,
+        "y": 57.8,
+        "w": 46.1,
+        "h": 13,
+        "label": "Apply — 第一次使用，点这里注册新账号"
+      },
+      {
+        "x": 5.2,
+        "y": 70.5,
+        "w": 46,
+        "h": 11.5,
+        "label": "Continue — 已有账号登录（后续刷 Slot 也从这里进）"
+      },
+      {
+        "x": 5.1,
+        "y": 81.6,
+        "w": 46.6,
+        "h": 13.3,
+        "label": "How to Apply — 了解整体流程"
+      }
+    ],
+    "tips": [
+      "已付费账号刷新 Slot，直接点 Continue 登录"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "选择申请人类型",
+    "subtitle": "选择 I have completed the DS-160 form，然后点 Continue",
+    "screenshots": [
+      "/screesnshots/slot/step-02.png"
+    ],
+    "boxes": [
+      {
+        "x": 22.1,
+        "y": 47,
+        "w": 52.8,
+        "h": 10,
+        "label": "选这个 — I have completed the DS-160 form and I need to apply for a visa"
+      },
+      {
+        "x": 39.2,
+        "y": 86.2,
+        "w": 22,
+        "h": 8,
+        "label": "点 Continue 继续"
+      }
+    ],
+    "tips": [
+      "旅游/留学签证都选第二项（DS-160 那个）"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "注册账号",
+    "subtitle": "填写姓名、邮箱、密码，勾选已阅读条款，点 Create Account",
+    "screenshots": [
+      "/screesnshots/slot/step-03.png"
+    ],
+    "boxes": [
+      {
+        "x": 22.4,
+        "y": 20.1,
+        "w": 55,
+        "h": 4.8,
+        "label": "Given Name — 名（和护照一致）"
+      },
+      {
+        "x": 21.9,
+        "y": 25.8,
+        "w": 55,
+        "h": 7,
+        "label": "Surname — 姓（和护照一致）"
+      },
+      {
+        "x": 22.5,
+        "y": 33,
+        "w": 55,
+        "h": 10.9,
+        "label": "Email — 常用邮箱（后续收通知用）"
+      },
+      {
+        "x": 22.1,
+        "y": 44.9,
+        "w": 55,
+        "h": 12.8,
+        "label": "Password — 设置密码>16位，包含大小写字母和特殊字符"
+      },
+      {
+        "x": 22,
+        "y": 59,
+        "w": 55,
+        "h": 21.2,
+        "label": "Text Alerts — 可选勾选短信提醒；必须勾选 Privacy Policy"
+      },
+      {
+        "x": 68.7,
+        "y": 90.8,
+        "w": 25,
+        "h": 8,
+        "label": "点 Create Account 创建账号"
+      }
+    ],
+    "tips": [
+      "邮箱要填对，后面要去邮箱点激活链接",
+      "密码要包含大小写字母+数字+特殊符号"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "验证邮箱激活账号",
+    "subtitle": "账号创建后，登录你的邮箱找到 AIS 发送的确认邮件，点击激活链接",
+    "screenshots": [
+      "/screesnshots/slot/step-04.png"
+    ],
+    "boxes": [
+      {
+        "x": 13.8,
+        "y": 33.7,
+        "w": 47.7,
+        "h": 12,
+        "label": "你注册的邮箱地址（确认填对了）。提示：去邮箱查收激活邮件。"
+      },
+      {
+        "x": 20.7,
+        "y": 71.2,
+        "w": 16.2,
+        "h": 4.4,
+        "label": "Resend email — 没收到邮件？点这里重发"
+      },
+      {
+        "x": 40.9,
+        "y": 79.2,
+        "w": 14.6,
+        "h": 4.4,
+        "label": "update the email address — 邮箱填错了点这里修改"
+      }
+    ],
+    "tips": [
+      "邮件可能在垃圾邮件/Spam 文件夹，记得检查",
+      "激活链接有效期有限，尽快点击"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "点击邮件中的激活链接",
+    "subtitle": "收件箱找到来自 donotreply@usvisa-info.com 的邮件，点击蓝色激活链接",
+    "screenshots": [
+      "/screesnshots/slot/step-05.png"
+    ],
+    "boxes": [
+      {
+        "x": 4.7,
+        "y": 37.8,
+        "w": 85,
+        "h": 12,
+        "label": "点击这个蓝色链接激活账号（ais.usvisa-info.com/en-gb/...）"
+      }
+    ],
+    "tips": [
+      "激活成功后会自动跳转登录页面"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "填写申请人信息（第一部分）",
+    "subtitle": "填写姓名、护照信息、DS-160 号、签证类型等，必须和护照及 DS-160 完全一致",
+    "screenshots": [
+      "/screesnshots/slot/step-06.png"
+    ],
+    "boxes": [
+      {
+        "x": 15.2,
+        "y": 10.8,
+        "w": 74.3,
+        "h": 7.1,
+        "label": "警告：所有信息必须和 DS-160 完全一致，否则无法继续预约"
+      },
+      {
+        "x": 26,
+        "y": 32.3,
+        "w": 47.3,
+        "h": 11.7,
+        "label": "名和姓（和护照/DS-160 一致）"
+      },
+      {
+        "x": 20.8,
+        "y": 44.1,
+        "w": 52.1,
+        "h": 6,
+        "label": "护照签发地"
+      },
+      {
+        "x": 34.5,
+        "y": 50.7,
+        "w": 38.3,
+        "h": 4.6,
+        "label": "出生的国家"
+      },
+      {
+        "x": 26.6,
+        "y": 56.3,
+        "w": 45.7,
+        "h": 4.8,
+        "label": "有永居的国家"
+      },
+      {
+        "x": 34.4,
+        "y": 61.8,
+        "w": 38.5,
+        "h": 5.2,
+        "label": "护照号"
+      },
+      {
+        "x": 35.1,
+        "y": 67.7,
+        "w": 38.4,
+        "h": 4.6,
+        "label": "DS-160 确认页上的 AA 开头号码"
+      },
+      {
+        "x": 38.7,
+        "y": 73.5,
+        "w": 34.3,
+        "h": 4.8,
+        "label": "Visa Class — 选 B1/B2 Business & Tourism (Temporary visitor)"
+      },
+      {
+        "x": 38.2,
+        "y": 79.7,
+        "w": 34.8,
+        "h": 4.5,
+        "label": "出生日期（Day / Month / Year 下拉选）"
+      }
+    ],
+    "tips": [
+      "DS-160 Number 就是 DS-160 确认页上的 Application ID（AA 开头）",
+      "所有信息必须和你的 DS-160 表完全一致"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "填写申请人信息（第二部分）",
+    "subtitle": "继续填写出生日期、电话、邮箱，回答签证相关问题，点 Create Applicant",
+    "screenshots": [
+      "/screesnshots/slot/step-07.png"
+    ],
+    "boxes": [
+      {
+        "x": 20.1,
+        "y": 30.9,
+        "w": 72,
+        "h": 8,
+        "label": "Primary Phone — 英国手机号（+44 开头）"
+      },
+      {
+        "x": 36.3,
+        "y": 47.8,
+        "w": 27,
+        "h": 3.3,
+        "label": "Text Alerts — 接收短信提醒（建议勾，方便收通知）"
+      },
+      {
+        "x": 28.4,
+        "y": 53.3,
+        "w": 38.6,
+        "h": 5.8,
+        "label": "Email Address — 登录邮箱"
+      },
+      {
+        "x": 36.8,
+        "y": 61.8,
+        "w": 29.1,
+        "h": 12.2,
+        "label": "之前是否办过美签进入美国？ — 没有办过美签选 No"
+      },
+      {
+        "x": 37,
+        "y": 76.1,
+        "w": 29.5,
+        "h": 12.9,
+        "label": "是否为了在英国申请美签从其他地方来旅游？ — 英国留学生选 No"
+      },
+      {
+        "x": 75.6,
+        "y": 94.7,
+        "w": 12.4,
+        "h": 3.8,
+        "label": "点 Create Applicant 完成申请人创建"
+      }
+    ],
+    "tips": []
+  },
+  {
+    "id": 8,
+    "title": "确认签证信息",
+    "subtitle": "系统显示你填写的信息，确认无误后点 Yes 继续",
+    "screenshots": [
+      "/screesnshots/slot/step-08.png"
+    ],
+    "boxes": [
+      {
+        "x": 43.9,
+        "y": 75.5,
+        "w": 6.5,
+        "h": 5.8,
+        "label": "Yes — 信息无误，点这里继续"
+      }
+    ],
+    "tips": [
+      "仔细核对每一项，特别是 DS-160 号码和护照号，填错会影响预约"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "确认申请条件（勾选 None of the above）",
+    "subtitle": "阅读所有条款，普通申请人勾选最后一项 None of the above apply，点 Confirm",
+    "screenshots": [
+      "/screesnshots/slot/step-09.png"
+    ],
+    "boxes": [
+      {
+        "x": 20.1,
+        "y": 28.9,
+        "w": 51.1,
+        "h": 20.1,
+        "label": "英国留学生选这个（有 Student Visa / Graduate Visa)"
+      },
+      {
+        "x": 44.8,
+        "y": 91.3,
+        "w": 9.3,
+        "h": 4.4,
+        "label": "点 Confirm 确认"
+      }
+    ],
+    "tips": []
+  },
+  {
+    "id": 10,
+    "title": "是否添加同行人",
+    "subtitle": "一个人去递签选 No，和朋友一起去（同一个预约时间）选 Yes",
+    "screenshots": [
+      "/screesnshots/slot/step-10.png"
+    ],
+    "boxes": [
+      {
+        "x": 36.1,
+        "y": 37.7,
+        "w": 30,
+        "h": 22.7,
+        "label": "是否想和伙伴一起递签？这里可以选择新增申请者"
+      }
+    ],
+    "tips": [
+      "一起预约的人共用同一个面签时间和地点"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "选择护照取件地点",
+    "subtitle": "面签通过后护照寄回的地点，可选伦敦/贝法斯特/曼城，免费",
+    "screenshots": [
+      "/screesnshots/slot/step-11.png"
+    ],
+    "boxes": [
+      {
+        "x": 21.2,
+        "y": 62.7,
+        "w": 68,
+        "h": 17.4,
+        "label": "选择护照取件地点（London/Belfast）——和之前填写地点一致"
+      },
+      {
+        "x": 80.4,
+        "y": 92.8,
+        "w": 8.5,
+        "h": 5.5,
+        "label": "点 Continue 继续"
+      }
+    ],
+    "tips": [
+      "建议选离你最近的城市，方便取护照",
+      "也可以额外付约20英镑选快递邮寄到家"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "缴纳签证费（MRV Fee）",
+    "subtitle": "确认费用明细，选择支付方式，完成付款。B1/B2 费用为 185 USD（约 146 GBP）",
+    "screenshots": [
+      "/screesnshots/slot/step-12.png"
+    ],
+    "boxes": [
+      {
+        "imgIndex": 0,
+        "x": 70,
+        "y": 25.5,
+        "w": 19.7,
+        "h": 14.7,
+        "label": "最近可预约的日期"
+      },
+      {
+        "imgIndex": 0,
+        "x": 9.5,
+        "y": 79.7,
+        "w": 34.2,
+        "h": 10.2,
+        "label": "选择支付方式"
+      },
+      {
+        "imgIndex": 0,
+        "x": 59.3,
+        "y": 94.6,
+        "w": 8.1,
+        "h": 5.1,
+        "label": "点击continue去付款"
+      }
+    ],
+    "tips": [
+      "费用不可退、不可转让，付款前仔细检查",
+      "右侧 First Available Appointments 能看到当前最早可预约的日期",
+      "付款处理可能需要最多30分钟，付款中不要关闭页面或刷新"
+    ],
+    "warning": {
+      "title": "付款期间不要刷新页面",
+      "body": "支付授权最多需要30分钟。付款中不要关闭浏览器、不要点后退、不要刷新页面。如不确定是否成功，先联系客服确认，不要重复付款。"
+    }
+  },
+  {
+    "id": 13,
+    "title": "预约后的管理菜单",
+    "subtitle": "付款并预约成功后，进入账号可以看到这个管理页面。刷新 Slot 使用 Reschedule Appointment",
+    "screenshots": [
+      "/screesnshots/slot/step-13.png"
+    ],
+    "boxes": [
+      {
+        "x": 8.3,
+        "y": 48.8,
+        "w": 45,
+        "h": 7.4,
+        "label": "面签地点"
+      },
+      {
+        "x": 8.2,
+        "y": 58.2,
+        "w": 45.1,
+        "h": 7.4,
+        "label": "面签日期"
+      },
+      {
+        "x": 8.1,
+        "y": 66.5,
+        "w": 45.2,
+        "h": 9,
+        "label": "面签当天的时间"
+      }
+    ],
+    "tips": [
+      "最常用的是 Reschedule Appointment（改期）和 Print Instructions（打印材料）",
+      "刷到好的 Slot 后，点 Reschedule Appointment 改时间",
+      "早上或凌晨刷 Slot 成功率更高"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "预约确认 & 当前状态",
+    "subtitle": "预约成功后账号显示 Attend Appointment 状态，可以看到面签时间、地点和申请人信息",
+    "screenshots": [
+      "/screesnshots/slot/step-14.png"
+    ],
+    "boxes": [
+      {
+        "x": 6.8,
+        "y": 33,
+        "w": 55,
+        "h": 8,
+        "label": "Current Status: Attend Appointment — 绿勾表示预约已确认"
+      },
+      {
+        "x": 83.7,
+        "y": 34.4,
+        "w": 8.4,
+        "h": 6.9,
+        "label": "Continue — 点击可进入改期/管理流程"
+      },
+      {
+        "x": 6.9,
+        "y": 46.3,
+        "w": 70,
+        "h": 8,
+        "label": "Consular Appointment — 面签日期、时间和使馆地址，点 Get directions 查看地图"
+      },
+      {
+        "x": 6.9,
+        "y": 55.3,
+        "w": 70,
+        "h": 9,
+        "label": "Document Delivery — 护照取件地点（你之前选的快递点），点 View map 查看"
+      }
+    ],
+    "tips": [
+      "每次登录后都会看到这个 Groups 页面，是管理预约的起点",
+      "点 Continue 进入操作菜单，可改期（Reschedule）或打印材料",
+      "截图保存此页，包含面签时间、地点和 IVR Account Number",
+      "DS-160 Status 显示绿勾才算关联成功，否则需重新核对 DS-160 号码"
+    ],
+    "warning": {
+      "title": "改期不等于取消",
+      "body": "点 Continue → Reschedule Appointment 是改期，不会退费。如果想取消预约请选 Cancel Appointment，但签证费通常不退。"
+    }
+  },
+  {
+    "id": 15,
+    "title": "Groups 概览页 — 核对预约信息",
+    "subtitle": "登录后进入 Groups 页面，确认面签时间、地点、取件地址及申请人 DS-160 状态均正确",
+    "screenshots": [
+      "/screesnshots/slot/step-15.png"
+    ],
+    "boxes": [
+      {
+        "x": 1.9,
+        "y": 23.2,
+        "w": 21.2,
+        "h": 7.2,
+        "label": "签证邮寄服务"
+      },
+      {
+        "x": 2,
+        "y": 30.9,
+        "w": 15.6,
+        "h": 5.7,
+        "label": "打印递签指引"
+      },
+      {
+        "x": 1.9,
+        "y": 37,
+        "w": 15.6,
+        "h": 6.5,
+        "label": "发一封递签指引到自己邮箱"
+      },
+      {
+        "x": 1.8,
+        "y": 43.8,
+        "w": 19.6,
+        "h": 5,
+        "label": "改递签时间和地点"
+      },
+      {
+        "imgIndex": 0,
+        "x": 1.9,
+        "y": 49.6,
+        "w": 20.6,
+        "h": 5.4,
+        "label": "取消预约"
+      },
+      {
+        "imgIndex": 0,
+        "x": 1.9,
+        "y": 56.1,
+        "w": 14.9,
+        "h": 5.5,
+        "label": "增加申请者"
+      },
+      {
+        "imgIndex": 0,
+        "x": 2,
+        "y": 62.2,
+        "w": 21.3,
+        "h": 5.6,
+        "label": "更新物流"
+      },
+      {
+        "imgIndex": 0,
+        "x": 2.2,
+        "y": 69.1,
+        "w": 20,
+        "h": 4.9,
+        "label": "紧急递签服务"
+      },
+      {
+        "imgIndex": 0,
+        "x": 2.2,
+        "y": 75.4,
+        "w": 20.6,
+        "h": 4.3,
+        "label": "查看付费收据"
+      }
+    ],
+    "tips": [
+      "截图保存这个页面，上面有你的面签时间和地点",
+      "系统还会发一封确认邮件到你的注册邮箱",
+      "IVR Account Number 用于电话查询，记下备用"
+    ]
+  }
+]

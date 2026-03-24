@@ -1,0 +1,1038 @@
+[
+  {
+    "id": 1,
+    "title": "进入 DS-160 申请系统",
+    "subtitle": "访问美国国务院官方网站 ceac.state.gov 开始填写非移民签证申请表",
+    "screenshots": [],
+    "annotations": [],
+    "tips": [
+      "DS-160 是所有非移民签证（B1/B2旅游商务、F1学生等）的在线申请表",
+      "全程需要约30-90分钟，建议提前准备好护照、证件照、旅行计划",
+      "网站经常超时，记得随时保存（Save按钮）",
+      "准备好：护照、身份证号、姓名Telecode、≤240KB不戴眼镜证件照、旅游计划（城市+景点+酒店名和地址）"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "打开 CEAC 官网",
+    "subtitle": "在浏览器中访问 ceac.state.gov/genniv/ 进入DS-160在线申请页面",
+    "screenshots": [
+      "/screesnshots/ds160/step-jinru.png"
+    ],
+    "boxes": [
+      {
+        "x": 38.9,
+        "y": 35.9,
+        "w": 54,
+        "h": 7,
+        "label": "Select a location — 选择面签城市（选 LONDON, UNITED KINGDOM）"
+      },
+      {
+        "x": 38.5,
+        "y": 43.4,
+        "w": 54.7,
+        "h": 12.8,
+        "label": "Code — 输入右侧显示的验证码字母"
+      },
+      {
+        "x": 62.1,
+        "y": 62.6,
+        "w": 36.1,
+        "h": 4.3,
+        "label": "START AN APPLICATION — 点击开始新申请"
+      },
+      {
+        "x": 61.7,
+        "y": 70.4,
+        "w": 36.5,
+        "h": 4,
+        "label": "RETRIEVE AN APPLICATION — 找回已有申请"
+      }
+    ],
+    "tips": [
+      "直接访问 ceac.state.gov/genniv/",
+      "英国留学生统一选 LONDON, UNITED KINGDOM",
+      "记下 Application ID，后续找回申请需要用到"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "隐私声明与申请信息",
+    "subtitle": "阅读隐私声明并勾选同意，然后设置安全问题保护你的申请",
+    "screenshots": [
+      "/screesnshots/ds160/step-01.png"
+    ],
+    "boxes": [
+      {
+        "x": 1.7,
+        "y": 46.2,
+        "w": 15.4,
+        "h": 4.3,
+        "label": "I AGREE — 勾选同意隐私声明"
+      },
+      {
+        "x": 56.8,
+        "y": 55.1,
+        "w": 39,
+        "h": 13,
+        "label": "Application ID — 截图保存！格式 AA00XXXXXXX，找回申请必须用"
+      },
+      {
+        "x": 1.8,
+        "y": 84.8,
+        "w": 79.8,
+        "h": 4.7,
+        "label": "Security Question — 选择安全问题"
+      },
+      {
+        "x": 0.5,
+        "y": 90.4,
+        "w": 80.2,
+        "h": 4.3,
+        "label": "Answer — 填写答案（一定要记住，写在备忘录里）"
+      }
+    ],
+    "tips": [
+      "Application ID 格式为 AA00XXXXXXX，一定要截图保存",
+      "安全问题和答案是找回申请的唯一途径，建议截图或记在备忘录"
+    ],
+    "warning": {
+      "title": "千万保存好 Application ID",
+      "body": "如果浏览器关闭或超时，你需要 Application ID + 安全问题答案 才能找回申请。建议立刻截图保存。"
+    }
+  },
+  {
+    "id": 4,
+    "title": "个人信息（第一部分）",
+    "subtitle": "填写姓名、电码、性别、婚姻状态、出生日期等，必须与护照完全一致",
+    "screenshots": [
+      "/screesnshots/ds160/step-02-01.png",
+      "/screesnshots/ds160/step-02-02.png"
+    ],
+    "boxes": [
+      {
+        "imgIndex": 0,
+        "x": 21.5,
+        "y": 16.4,
+        "w": 52.9,
+        "h": 7.8,
+        "label": "Surnames — 姓氏（按护照拼音大写，如 ZHANG）"
+      },
+      {
+        "imgIndex": 0,
+        "x": 21.1,
+        "y": 29.3,
+        "w": 53,
+        "h": 6.6,
+        "label": "Given Names — 名字（大写不加空格！如 XIAOMING 不是 XIAO MING）"
+      },
+      {
+        "imgIndex": 0,
+        "x": 20.7,
+        "y": 37.7,
+        "w": 53,
+        "h": 8,
+        "label": "Full Name in Nativel Name in Nativea Alphabet — 中文全名（如 张小明） Alphabet — 中文全名（如 张小明）"
+      },
+      {
+        "imgIndex": 0,
+        "x": 18.7,
+        "y": 50.1,
+        "w": 53.5,
+        "h": 9.1,
+        "label": "曾经是否使用过其他名字？"
+      },
+      {
+        "imgIndex": 0,
+        "x": 21.2,
+        "y": 68.5,
+        "w": 53,
+        "h": 21.6,
+        "label": "Telecode — 选 Yes，填写姓氏和名字的汉字电码（下面有查询功能）"
+      },
+      {
+        "imgIndex": 0,
+        "x": 20.8,
+        "y": 90.2,
+        "w": 53.3,
+        "h": 8.6,
+        "label": "Sex — 性别"
+      },
+      {
+        "imgIndex": 1,
+        "x": 21,
+        "y": 0,
+        "w": 52.7,
+        "h": 7,
+        "label": "Marital Status — 婚姻状态（未婚选 SINGLE）"
+      },
+      {
+        "imgIndex": 1,
+        "x": 21.3,
+        "y": 9.5,
+        "w": 53,
+        "h": 36.1,
+        "label": "Date and Place of Birth — 出生日期和出生地（严格按护照）"
+      }
+    ],
+    "tips": [
+      "姓名必须和护照 MRZ 栏一致",
+      "Given Names 中间绝对不能有空格！XIAOMING 不是 XIAO MING"
+    ],
+    "warning": {
+      "title": "Given Names 不能有空格",
+      "body": "最常见的错误就是在 Given Names 中加空格。请严格按护照 MRZ 栏填写。错误示例：XIAO MING → 正确：XIAOMING"
+    }
+  },
+  {
+    "id": 5,
+    "title": "个人信息（第二部分）",
+    "subtitle": "填写国籍、是否为永久居民、身份证号等信息",
+    "screenshots": [
+      "/screesnshots/ds160/step-03.png"
+    ],
+    "boxes": [
+      {
+        "x": 20.2,
+        "y": 11.4,
+        "w": 58,
+        "h": 6.5,
+        "label": "Country/Region of Origin — 选 CHINA"
+      },
+      {
+        "x": 21.4,
+        "y": 18.9,
+        "w": 58,
+        "h": 11,
+        "label": "Other Nationality — 没有其他国籍选 No"
+      },
+      {
+        "x": 20.6,
+        "y": 33.4,
+        "w": 58,
+        "h": 11,
+        "label": "Permanent Resident — 不是永久居民选 No"
+      },
+      {
+        "x": 17.3,
+        "y": 61.8,
+        "w": 58,
+        "h": 8.2,
+        "label": "National Identification Number — 填18位身份证号"
+      },
+      {
+        "x": 17.3,
+        "y": 70.1,
+        "w": 58,
+        "h": 5.9,
+        "label": "U.S. Social Security Number — 勾 Does Not Apply"
+      },
+      {
+        "x": 17.4,
+        "y": 77.7,
+        "w": 58,
+        "h": 8.3,
+        "label": "U.S. Taxpayer ID Number — 勾 Does Not Apply"
+      }
+    ],
+    "tips": [
+      "没有美国社安号和纳税人ID，勾 Does Not Apply",
+      "身份证号填中国18位身份证号码"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "旅行信息（签证类别与行程）",
+    "subtitle": "选择签证类型、填写旅行计划日期和目的地",
+    "screenshots": [
+      "/screesnshots/ds160/step-04-01.png"
+    ],
+    "boxes": [
+      {
+        "x": 21.5,
+        "y": 19.1,
+        "w": 58,
+        "h": 10.7,
+        "label": "Purpose of Trip / Visa type — 选 PLEASURE/TOURISM，类别选 B1/B2"
+      },
+      {
+        "x": 19.1,
+        "y": 36.7,
+        "w": 58,
+        "h": 7.4,
+        "label": "Specific travel plans? — 最好选 Yes（有具体计划）"
+      },
+      {
+        "x": 20.3,
+        "y": 46.6,
+        "w": 53,
+        "h": 54.5,
+        "label": "可以编造一个，时间最好在毕业之前"
+      }
+    ],
+    "tips": [
+      "旅游签统一选 B1/B2",
+      "建议选 Yes 有具体旅行计划，能体现回国意愿",
+      "旅行计划不需要非常详细，写城市和大概日期即可"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "旅行信息（美国住址与出资人）",
+    "subtitle": "填写在美国的住址和旅行费用承担人信息",
+    "screenshots": [
+      "/screesnshots/ds160/step-04-02.png"
+    ],
+    "boxes": [
+      {
+        "x": 18,
+        "y": 3,
+        "w": 55,
+        "h": 32.7,
+        "label": "Address Where You Will Stay — 填酒店名称和完整地址（街道、城市、州、邮编）"
+      },
+      {
+        "x": 19.1,
+        "y": 36.8,
+        "w": 55,
+        "h": 6.2,
+        "label": "Person/Entity Paying — 自费选 SELF，父母出钱选 OTHER PERSON"
+      },
+      {
+        "x": 19.7,
+        "y": 43.6,
+        "w": 55,
+        "h": 29.7,
+        "label": "出资人的信息"
+      },
+      {
+        "x": 19.2,
+        "y": 73.4,
+        "w": 55,
+        "h": 5.8,
+        "label": "Email Address — 出资人邮箱（可以不写）"
+      },
+      {
+        "x": 19.2,
+        "y": 80.3,
+        "w": 55,
+        "h": 11,
+        "label": "与出资人的关系"
+      }
+    ],
+    "tips": [
+      "住址可以填预订的酒店名称和地址",
+      "不需要订单信息，只需要酒店名字和地址",
+      "父母出钱选 OTHER PERSON，填父/母信息",
+      "机票酒店查询网站：https://uk.trip.com/"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "同行人信息",
+    "subtitle": "填写是否有人与你同行前往美国",
+    "screenshots": [
+      "/screesnshots/ds160/step-05.png"
+    ],
+    "annotations": [
+      {
+        "x": 38,
+        "y": 52,
+        "label": "Are there other persons traveling with you? — 独自出行选 No"
+      }
+    ],
+    "tips": [
+      "独自旅行选 No 即可",
+      "如果有同行人，需要填写同行人的姓名和关系"
+    ],
+    "boxes": [
+      {
+        "x": 18,
+        "y": 38,
+        "w": 60,
+        "h": 22,
+        "label": "Are there other persons traveling with you? — 独自出行选 No"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "曾赴美记录",
+    "subtitle": "填写之前是否去过美国、是否持有过美国签证、是否被拒签过",
+    "screenshots": [
+      "/screesnshots/ds160/step-06.png"
+    ],
+    "boxes": [
+      {
+        "x": 16.9,
+        "y": 18.8,
+        "w": 60,
+        "h": 15,
+        "label": "是否去过美国？"
+      },
+      {
+        "x": 18,
+        "y": 35,
+        "w": 60,
+        "h": 15,
+        "label": "是否有过美国签证？"
+      },
+      {
+        "x": 18,
+        "y": 53,
+        "w": 60,
+        "h": 15,
+        "label": "是否被拒签过？"
+      },
+      {
+        "x": 18,
+        "y": 71,
+        "w": 60,
+        "h": 15,
+        "label": "是否有人曾代表您向美国公民及移民服务局提交过移民申请?"
+      }
+    ],
+    "tips": [
+      "没去过美国的全选 No 即可",
+      "如实填写拒签记录，不要隐瞒"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "地址、电话与社交媒体",
+    "subtitle": "填写你的家庭住址（英国地址）、电话号码、邮箱和社交媒体信息",
+    "screenshots": [
+      "/screesnshots/ds160/step-07-01.png",
+      "/screesnshots/ds160/step-07-02.png"
+    ],
+    "boxes": [
+      {
+        "imgIndex": 0,
+        "x": 18,
+        "y": 7,
+        "w": 55,
+        "h": 41.9,
+        "label": "Home Address — 填英国住址（街道、城市、State/Province、邮编）"
+      },
+      {
+        "imgIndex": 0,
+        "x": 20.5,
+        "y": 53.4,
+        "w": 55,
+        "h": 8,
+        "label": "Mailing Address same as home address? — 相同选 Yes"
+      },
+      {
+        "imgIndex": 0,
+        "x": 20.4,
+        "y": 63.7,
+        "w": 55,
+        "h": 22.3,
+        "label": "Primary Phone Number — 填英国手机号（+44 格式）"
+      },
+      {
+        "imgIndex": 0,
+        "x": 22.3,
+        "y": 90.4,
+        "w": 50.6,
+        "h": 20.5,
+        "label": "是否使用过其他的电话号码和邮箱地址"
+      },
+      {
+        "imgIndex": 1,
+        "x": 24,
+        "y": 17.1,
+        "w": 51,
+        "h": 50.1,
+        "label": "社交媒体账号选个不常用的就行，QQ之类的"
+      },
+      {
+        "imgIndex": 1,
+        "x": 25.7,
+        "y": 69.2,
+        "w": 46.5,
+        "h": 13.7,
+        "label": "是否接受提供网络上的个人信息，NO!大漏特漏！"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "护照信息",
+    "subtitle": "填写护照类型、护照号码、签发国家、签发和到期日期",
+    "screenshots": [
+      "/screesnshots/ds160/step-09.png"
+    ],
+    "boxes": [
+      {
+        "x": 19.5,
+        "y": 7.7,
+        "w": 53,
+        "h": 4.6,
+        "label": "Passport/Travel Document Type — 选 REGULAR（普通护照）"
+      },
+      {
+        "x": 20.6,
+        "y": 12.9,
+        "w": 53,
+        "h": 4.2,
+        "label": "Passport/Travel Document Number — 护照号码"
+      },
+      {
+        "x": 18,
+        "y": 26,
+        "w": 53,
+        "h": 8,
+        "label": "Passport Book Number — 勾 Does Not Apply"
+      },
+      {
+        "x": 18,
+        "y": 34.7,
+        "w": 53,
+        "h": 4.2,
+        "label": "Country of Authority — 签发国选 CHINA"
+      },
+      {
+        "x": 18.8,
+        "y": 41.8,
+        "w": 53,
+        "h": 16.5,
+        "label": "Where Issued — 签发地点（填护照上的签发机关城市）"
+      },
+      {
+        "x": 18.5,
+        "y": 59.4,
+        "w": 53,
+        "h": 8,
+        "label": "Issuance Date — 护照签发日期（严格按护照）"
+      },
+      {
+        "x": 18.2,
+        "y": 68.1,
+        "w": 53,
+        "h": 8,
+        "label": "Expiration Date — 护照到期日（需余6个月以上）"
+      },
+      {
+        "x": 18.1,
+        "y": 85.2,
+        "w": 53,
+        "h": 8.2,
+        "label": "Have you ever had a passport lost or stolen? — 护照是否丢过或者被偷过？"
+      }
+    ],
+    "tips": [
+      "所有信息严格按护照填写",
+      "护照有效期需要至少6个月以上"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "美国联系人",
+    "subtitle": "填写在美国的联系人信息。不认识美国的人可以填预订的酒店信息",
+    "screenshots": [
+      "/screesnshots/ds160/step-10.png"
+    ],
+    "boxes": [
+      {
+        "x": 22.3,
+        "y": 8.6,
+        "w": 53,
+        "h": 19.4,
+        "label": "Contact Person — 联系人姓名（不认识美国人可填酒店名称）"
+      },
+      {
+        "x": 22.7,
+        "y": 29.4,
+        "w": 53,
+        "h": 6.7,
+        "label": "Organization Name — 组织名称，这里可以填酒店名称"
+      },
+      {
+        "x": 22.2,
+        "y": 38,
+        "w": 53,
+        "h": 4,
+        "label": "Relationship to You — 酒店的话选 OTHER"
+      },
+      {
+        "x": 22.2,
+        "y": 44.1,
+        "w": 53,
+        "h": 29.1,
+        "label": "U.S. Mailing Address — 联系人或酒店完整地址"
+      },
+      {
+        "x": 22.2,
+        "y": 74.1,
+        "w": 53,
+        "h": 16,
+        "label": "Phone Number / Email Address — 联系人或酒店的电话"
+      }
+    ],
+    "tips": [
+      "如果不认识任何美国人，可以填入住酒店的名称和地址",
+      "Relationship 选 OTHER",
+      "Google搜索 酒店名+address 即可找到完整地址"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "家庭信息（亲属）",
+    "subtitle": "填写父母的姓名、出生日期，以及是否有亲属在美国",
+    "screenshots": [
+      "/screesnshots/ds160/step-11.png"
+    ],
+    "boxes": [
+      {
+        "x": 23.1,
+        "y": 17.9,
+        "w": 51,
+        "h": 6.7,
+        "label": "Father's Surnames — 父亲姓（拼音大写）"
+      },
+      {
+        "x": 24.9,
+        "y": 25.6,
+        "w": 46.1,
+        "h": 5.1,
+        "label": "Father's Given Names — 父亲名"
+      },
+      {
+        "x": 23.1,
+        "y": 31.7,
+        "w": 46,
+        "h": 5.5,
+        "label": "Father's Date of Birth — 父亲出生日期"
+      },
+      {
+        "x": 23.9,
+        "y": 37.8,
+        "w": 46,
+        "h": 6,
+        "label": "Is your father in the U.S.? — 选 No"
+      },
+      {
+        "x": 24.6,
+        "y": 50.3,
+        "w": 46,
+        "h": 25.8,
+        "label": "Mother's Surnames — 母亲姓，名，出生日期和是否在美国"
+      },
+      {
+        "x": 20.2,
+        "y": 78.2,
+        "w": 58,
+        "h": 16,
+        "label": "Immediate relatives in the U.S.? — 是否有亲属在美国？"
+      }
+    ],
+    "tips": [
+      "如果不知道出生日期，勾 Do Not Know"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "现在的工作/教育信息",
+    "subtitle": "学生填写当前就读的学校信息",
+    "screenshots": [
+      "/screesnshots/ds160/step-12.png"
+    ],
+    "boxes": [
+      {
+        "x": 20.2,
+        "y": 12.4,
+        "w": 53.4,
+        "h": 6.1,
+        "label": "Primary Occupation — 学生选 STUDENT"
+      },
+      {
+        "x": 22,
+        "y": 20.5,
+        "w": 50,
+        "h": 4.4,
+        "label": "Employer or School Name — 学校全称（英文大写，如 UNIVERSITY OF MANCHESTER）"
+      },
+      {
+        "x": 23.5,
+        "y": 25.3,
+        "w": 47.5,
+        "h": 37.9,
+        "label": "Address — 学校地址和电话（下面搜学校名找完整地址）"
+      },
+      {
+        "x": 19.9,
+        "y": 63.8,
+        "w": 53,
+        "h": 6,
+        "label": "Start Date — 入学日期"
+      },
+      {
+        "x": 20.2,
+        "y": 71.7,
+        "w": 53,
+        "h": 6,
+        "label": "Monthly Income — 学生勾 Does Not Apply"
+      },
+      {
+        "x": 20.4,
+        "y": 77.8,
+        "w": 53,
+        "h": 10.1,
+        "label": "Describe your duties — 研究生填 POSTGRADUATE STUDENT，本科填 UNDERGRADUATE STUDENT"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "之前的工作/教育信息",
+    "subtitle": "填写之前的工作经历和已完成的学历信息",
+    "screenshots": [
+      "/screesnshots/ds160/step-13.png"
+    ],
+    "boxes": [
+      {
+        "x": 20.1,
+        "y": 16.7,
+        "w": 58,
+        "h": 6.5,
+        "label": "Were you previously employed? — 没工作过选 No"
+      },
+      {
+        "x": 19.8,
+        "y": 24.9,
+        "w": 58,
+        "h": 11.2,
+        "label": "Have you attended any educational institutions at secondary level? — 是否就读过中学以上的教育机构？"
+      },
+      {
+        "x": 22.7,
+        "y": 37,
+        "w": 53,
+        "h": 33.4,
+        "label": "填之前的最高学历信息，地址邮编下面就能查到"
+      },
+      {
+        "x": 29.2,
+        "y": 71.5,
+        "w": 41.6,
+        "h": 3.8,
+        "label": "Course of Study — 本科填专业名，高中填 ACADEMIC"
+      },
+      {
+        "x": 23.4,
+        "y": 76.2,
+        "w": 53,
+        "h": 14,
+        "label": "Date of Attendance — 本科入学日期和毕业日期"
+      }
+    ],
+    "tips": [
+      "填已完成的学历，在读的不用填在这里",
+      "高中 Course of Study 填 ACADEMIC 或 VOCATIONAL"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "额外工作/教育/培训信息",
+    "subtitle": "填写语言能力、近五年旅行记录等补充信息",
+    "screenshots": [
+      "/screesnshots/ds160/step-14.png"
+    ],
+    "boxes": [
+      {
+        "x": 21.4,
+        "y": 17,
+        "w": 49.5,
+        "h": 7.6,
+        "label": "你属于哪个氏族或部落吗？"
+      },
+      {
+        "x": 22.2,
+        "y": 26.4,
+        "w": 55.5,
+        "h": 13.3,
+        "label": "Languages — 填所有会说的语言（MANDARIN、ENGLISH、CANTONESE 等）"
+      },
+      {
+        "x": 21.6,
+        "y": 40.1,
+        "w": 58,
+        "h": 9.8,
+        "label": "Countries Visited — 近5年去过的国家/地区，港澳台也要填（HONG KONG、MACAO、TAIWAN）"
+      },
+      {
+        "x": 20.9,
+        "y": 50.9,
+        "w": 58,
+        "h": 43.4,
+        "label": "下方安全问题 — 普通人全部选 No"
+      }
+    ],
+    "tips": [
+      "语言要填所有会说的，包括方言",
+      "去过的地区包括港澳台，都要添加",
+      "下方的安全问题（军火、军队、叛乱组织等）正常人全选 No"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "额外信息（续）",
+    "subtitle": "继续回答额外的安全相关补充问题",
+    "screenshots": [
+      "/screesnshots/ds160/step-15.png"
+    ],
+    "boxes": [
+      {
+        "x": 21.6,
+        "y": 15.2,
+        "w": 62.7,
+        "h": 79.3,
+        "label": "安全背景补充问题（续）— 全部选 No"
+      }
+    ],
+    "tips": [
+      "安全相关问题正常人全选 No"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "安全与背景（Part 1）",
+    "subtitle": "安全与背景调查问题共5部分，普通申请人基本全选 No",
+    "screenshots": [
+      "/screesnshots/ds160/step-16.png"
+    ],
+    "boxes": [
+      {
+        "imgIndex": 0,
+        "x": 22.3,
+        "y": 30.1,
+        "w": 57.3,
+        "h": 55.9,
+        "label": "NO NO NO"
+      }
+    ],
+    "tips": [
+      "5个 Part 全选 No",
+      "如实回答，但正常人都是全 No"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "安全与背景（Part 2）",
+    "subtitle": "犯罪、毒品、卖淫、洗钱、人口贩卖相关问题",
+    "screenshots": [
+      "/screesnshots/ds160/step-17.png"
+    ],
+    "boxes": [
+      {
+        "x": 22.9,
+        "y": 20.2,
+        "w": 61.2,
+        "h": 72.3,
+        "label": "Security and Background Part 2 — 犯罪/毒品/卖淫/洗钱/贩卖人口相关，全部选 No"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "安全与背景（Part 3）",
+    "subtitle": "间谍、恐怖活动、种族灭绝等相关问题",
+    "screenshots": [
+      "/screesnshots/ds160/step-18.png"
+    ],
+    "boxes": [
+      {
+        "x": 25.5,
+        "y": 19.2,
+        "w": 56.6,
+        "h": 80.7,
+        "label": "Security and Background Part 3 — 间谍/恐怖活动/种族灭绝/酷刑相关，全部选 No"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "安全与背景（Part 4）",
+    "subtitle": "签证欺诈、被驱逐出境相关问题",
+    "screenshots": [
+      "/screesnshots/ds160/step-19.png"
+    ],
+    "boxes": [
+      {
+        "x": 22,
+        "y": 43.2,
+        "w": 65.5,
+        "h": 43.4,
+        "label": "Security and Background Part 4 — 签证欺诈/被驱逐出境相关，全部选 No"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "安全与背景（Part 5）",
+    "subtitle": "最后一部分安全背景问题",
+    "screenshots": [
+      "/screesnshots/ds160/step-20.png"
+    ],
+    "boxes": [
+      {
+        "x": 22.7,
+        "y": 33.7,
+        "w": 63.8,
+        "h": 44.4,
+        "label": "Security and Background Part 5 — 最后一部分安全问题，全部选 No"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "上传签证照片",
+    "subtitle": "上传符合要求的证件照，JPEG格式，不超过240KB",
+    "screenshots": [
+      "/screesnshots/ds160/step-21.png"
+    ],
+    "boxes": [
+      {
+        "x": 33.6,
+        "y": 74.2,
+        "w": 53.3,
+        "h": 13.9,
+        "label": "Upload Your Photo — 点击 Browse 选择照片（JPEG格式，不超过240KB，纯白背景，不戴眼镜）"
+      }
+    ],
+    "tips": [
+      "照片要求：JPEG格式，≤240KB，不戴眼镜",
+      "背景必须是纯白色",
+      "可以用 Photo Cropping Tool 裁剪",
+      "上传后系统会自动检查照片质量"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "确认照片",
+    "subtitle": "确认上传的照片符合要求",
+    "screenshots": [
+      "/screesnshots/ds160/step-22.png"
+    ],
+    "boxes": [
+      {
+        "x": 27.1,
+        "y": 49.5,
+        "w": 56.9,
+        "h": 7.7,
+        "label": "选择照片"
+      },
+      {
+        "x": 54.4,
+        "y": 94.9,
+        "w": 30.6,
+        "h": 6.1,
+        "label": "上传照片"
+      }
+    ],
+    "tips": [
+      "照片不合格会有红色提示，需要重新上传"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "签名并提交申请",
+    "subtitle": "确认所有信息无误，签名提交。提交后无法修改！",
+    "screenshots": [
+      "/screesnshots/ds160/step-23.png"
+    ],
+    "boxes": [
+      {
+        "x": 18.3,
+        "y": 7.2,
+        "w": 62,
+        "h": 15,
+        "label": "有机构帮助你填写吗？ — 自己填写选 No"
+      },
+      {
+        "x": 20.8,
+        "y": 36.2,
+        "w": 45,
+        "h": 10,
+        "label": "Passport/Travel Document Number — 输入护照号"
+      },
+      {
+        "x": 24.9,
+        "y": 49.1,
+        "w": 25.3,
+        "h": 11.4,
+        "label": "Enter the code as shown — 输入验证码"
+      },
+      {
+        "x": 37.5,
+        "y": 74.6,
+        "w": 43.7,
+        "h": 6.4,
+        "label": "Sign and Submit Application — 确认所有信息无误后点击！提交后不可修改"
+      }
+    ],
+    "tips": [
+      "提交前仔细检查所有信息",
+      "提交后无法修改！",
+      "提交成功后点击 Next: Confirmation"
+    ],
+    "warning": {
+      "title": "提交后无法修改",
+      "body": "一旦点击 Sign and Submit Application，所有信息将被锁定，无法再修改。请确保所有信息正确无误后再提交。"
+    }
+  },
+  {
+    "id": 26,
+    "title": "提交成功",
+    "subtitle": "申请已成功提交，点击 Next: Confirmation 查看确认页",
+    "screenshots": [
+      "/screesnshots/ds160/step-24.png"
+    ],
+    "boxes": [
+      {
+        "x": 12.5,
+        "y": 4.7,
+        "w": 84.1,
+        "h": 63.7,
+        "label": "提交成功！点击 Next: Confirmation 前往确认页"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "DS-160 确认页",
+    "subtitle": "这是你的 DS-160 确认页面，打印保存，面签需要用到！",
+    "screenshots": [
+      "/screesnshots/ds160/step-25.png"
+    ],
+    "boxes": [
+      {
+        "x": 7.2,
+        "y": 88,
+        "w": 27.5,
+        "h": 6.9,
+        "label": "Print Confirmation — 打印确认页（面签时需要携带）"
+      },
+      {
+        "x": 35.3,
+        "y": 87.8,
+        "w": 21,
+        "h": 7.1,
+        "label": "Print Application — 打印申请表（建议保存备用）"
+      },
+      {
+        "x": 57.7,
+        "y": 87.7,
+        "w": 25.1,
+        "h": 8.2,
+        "label": "Email Confirmation — 发送确认邮件到你的邮箱"
+      }
+    ],
+    "tips": [
+      "打印 Confirmation 页面，面签要用",
+      "可以点 Print Confirmation 或 Email Confirmation",
+      "确认号码（Confirmation Number）也要记下来"
+    ]
+  }
+]
